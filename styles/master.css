@@ -1,0 +1,247 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Above is reset CSS  https://meyerweb.com/eric/tools/css/reset/ */
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav,
+.footer-nav {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-flow: row;
+}
+#S-icon {
+  width: 20px;
+}
+
+.icon-nav {
+  padding: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.nav-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-1 li a {
+  display: block;
+  padding: 13px;
+}
+
+.icon-nav:hover {
+  background-color: rgb(180, 180, 180);
+}
+.footer-nav a {
+  color: #70757a;
+}
+.footer-nav {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 47px;
+  background-color: rgb(242, 242, 242);
+}
+.center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15em;
+}
+.logo {
+  margin-bottom: 22px;
+}
+.search-bar {
+  padding: 10px 20px 10px 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  border: 1px solid grey;
+  border-radius: 50px;
+  background-color: transparent;
+}
+.search-bar:hover {
+  box-shadow: 0px 0px 2px 2px rgb(218, 216, 216);
+}
+
+.button-1 {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  border: 1px solid #f8f9fa;
+}
+.button-1:hover {
+  text-decoration: none;
+  border-color: rgb(196, 193, 193);
+  box-shadow: 0px 0px 1px 1px rgb(236, 234, 234);
+}
+.form {
+  border: 0px;
+  height: 95%;
+  width: 35em;
+}
+
+.form:focus {
+  outline: 0;
+}
